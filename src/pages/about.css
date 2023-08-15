@@ -5,6 +5,7 @@
     align-items: center;
 }
 
+
 /* @media screen and (max-width: 775px) {
     .aboutMainDiv {
         margin-top: 20rem;
@@ -182,4 +183,24 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.resume{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.resume a{
+    background: linear-gradient(rgb(1, 117, 111), rgb(192, 199, 174));
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px;
+    animation: borderTopBottomColor 4s linear infinite;
+    transition: ease-in-out 1s;
+}
+
+.resume a:hover{
+    transform: scale(0.7);
 }

@@ -55,18 +55,62 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 2rem;
+    /* padding: 2rem; */
+
 }
 
 .project {
     border-radius: 10%;
     padding: 2rem;
     margin-top: 4rem;
-    margin-bottom: 2rem;
+    position: relative;
+    animation: borderTopBottomColor 4s linear infinite;
     width: 500px;
-    height: 300px;
-    background: linear-gradient(rgb(8, 8, 8), rgb(110, 98, 98));
+    height: 350px;
+    /* background: linear-gradient(rgb(8, 8, 8), rgb(110, 98, 98)); */
+
     text-align: end;
+}
+
+.projectOne {
+    background: rgb(210, 112, 200);
+    background: linear-gradient(90deg, rgba(210, 112, 200, 1) 8%, rgba(222, 186, 41, 1) 97%);
+}
+
+.projectTwo {
+    background: rgb(75, 113, 64);
+    background: linear-gradient(90deg, rgba(75, 113, 64, 1) 8%, rgba(223, 98, 212, 1) 97%);
+}
+
+.projectThree {
+    background: rgb(73, 161, 186);
+    background: linear-gradient(60deg, rgba(73, 161, 186, 1) 47%, rgba(59, 209, 16, 1) 97%);
+}
+
+@keyframes borderTopBottomColor {
+
+    0%,
+    100% {
+        border-bottom: 3px solid rgb(252, 157, 157);
+        border-top: 3px solid rgb(252, 157, 157);
+    }
+
+    25% {
+        border-bottom: 3px solid rgb(193, 250, 176);
+        border-top: 3px solid rgb(193, 250, 176);
+    }
+
+    50% {
+        border-bottom: 3px solid rgb(176, 248, 244);
+        border-top: 3px solid rgb(176, 248, 244);
+
+    }
+
+    75% {
+        border-bottom: 3px solid rgb(243, 178, 252);
+        border-top: 3px solid rgb(243, 178, 252);
+
+    }
 }
 
 .project img {
@@ -102,23 +146,87 @@
     font-size: 25px;
 }
 
+.hoverLayout {
+
+    background-color: rgb(47, 41, 48);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10%;
+    z-index: 1;
+    transform: translateY(2%);
+    transition: opacity 2s ease, transform 2s ease;
+}
+
+
+.project:hover .hoverLayout {
+    display: flex;
+    opacity: 0.89;
+    transform: translateY(0%);
+}
+
 @media screen and (max-width:671px) {
+    .projectParentDiv {
+        width: auto;
+    }
+
     .project {
         width: auto;
-        height: auto;
+        height: 300px;
     }
 
     .project img {
         /* position: relative; */
-        left: auto;
-        bottom: auto;
+        left: -100px;
+        bottom: 80px;
         width: 200px;
         height: 300px;
     }
 
     .project h4 {
         /* position: relative; */
-        right: auto;
+        left: -400px;
+
+    }
+
+
+    .project .description {
+        /* position: relative; */
+        right: 16px;
+        bottom: 250px;
+    }
+
+
+
+}
+
+@media screen and (max-width:602px) {
+    .project {
+        width: auto;
+    }
+
+    .project img {
+
+        left: auto;
+        bottom: 80px;
+        top: auto;
+        right: 60px;
+        width: 200px;
+        height: 300px;
+    }
+
+    .project h4 {
+        /* position: relative; */
+        right: 0;
+        bottom: 0;
+        left: 0;
 
     }
 
@@ -126,9 +234,9 @@
     .project .description {
         /* position: relative; */
         right: auto;
-        bottom: auto;
+        bottom: 250px;
     }
 
-    
+
 
 }
