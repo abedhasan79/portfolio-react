@@ -1,11 +1,11 @@
 .aboutMainDiv {
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-@media screen and (max-width: 775px) {
+/* @media screen and (max-width: 775px) {
     .aboutMainDiv {
         margin-top: 20rem;
     }
@@ -27,7 +27,7 @@
     .aboutMainDiv {
         margin-top: 30rem;
     }
-}
+} */
 
 .aboutMeHeader {
     display: flex;
