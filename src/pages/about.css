@@ -1,0 +1,176 @@
+.aboutMainDiv {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 775px) {
+    .aboutMainDiv {
+        margin-top: 20rem;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .aboutMainDiv {
+        margin-top: 30rem;
+    }
+}
+
+@media screen and (max-width: 1224px) {
+    .aboutMainDiv {
+        margin-top: 20rem;
+    }
+}
+
+@media screen and (max-width: 521px) {
+    .aboutMainDiv {
+        margin-top: 30rem;
+    }
+}
+
+.aboutMeHeader {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.aboutMeHeader h2 {
+
+    width: auto;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    animation: borderColor 4s linear infinite;
+}
+
+@keyframes borderColor {
+
+    0%,
+    100% {
+        border-bottom: 3px solid rgb(252, 157, 157);
+
+    }
+
+    25% {
+        border-bottom: 3px solid rgb(193, 250, 176);
+
+    }
+
+    50% {
+        border-bottom: 3px solid rgb(176, 248, 244);
+
+    }
+
+    75% {
+        border-bottom: 3px solid rgb(243, 178, 252);
+
+    }
+}
+
+.imageAbout {
+    border-radius: 30%;
+    height: 400px;
+    width: 400px;
+}
+
+.container-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.aboutIntroDiv {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    color: bisque;
+}
+
+@media screen and (max-width:945px) {
+    .aboutIntroDiv {
+
+        width: auto;
+    }
+
+    .imageAbout {
+        height: 400px;
+        width: 400px;
+    }
+}
+
+.aboutSkillsHeading {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    
+}
+
+.aboutSkillsHeading h2{
+    font-size: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    animation: borderColor 4s linear infinite;
+}
+.dotdotdot{
+    animation: colorAnimation 4s linear infinite;
+}
+.aboutSkillsHeading h4{
+    font-size: 20px;
+    color: aqua;
+}
+
+.aboutSkills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.aboutSkills div {
+    padding: 3rem 1rem 3rem 1rem;
+    margin-bottom: 3rem;
+    background: linear-gradient(rgb(8, 8, 8), rgb(110, 98, 98));
+    border-radius: 15%;
+    animation: borderAnimation 4s linear infinite;
+}
+
+.aboutSkills div i {
+    font-size: 30px;
+}
+
+.aboutSkills div h4 {
+    font-size: 25px;
+}
+
+
+
+.tech {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background: linear-gradient(rgb(110, 98, 98),rgb(8, 8, 8)); */
+}
+
+.tech img {
+    padding: 1rem;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s ease; 
+}
+
+
+.tech img:hover{
+    transform: scale(1.5);
+}
+
+.techChild{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

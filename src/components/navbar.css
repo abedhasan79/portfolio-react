@@ -1,0 +1,129 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+.navbar-logo {
+    width: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(39, 225, 250);
+    text-align: end;
+    
+}
+
+
+
+.logo-A {
+
+    color: rgb(0, 247, 255);
+    animation: colorAnimation 4s linear infinite;
+}
+
+@keyframes colorAnimation {
+
+    0%,
+    100% {
+        color: rgb(255, 0, 0);
+    }
+
+    25% {
+        color: rgb(82, 252, 30);
+    }
+
+    50% {
+        color: rgb(39, 250, 239);
+    }
+
+    75% {
+        color: rgb(223, 0, 253);
+    }
+}
+
+.navbar-links {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.navbar-item {
+    padding: 1.5rem;
+}
+
+/* .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    position: relative;
+} */
+
+.navbar-menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.bar {
+    width: 3rem;
+    height: 0.3rem;
+
+    background-color: white;
+
+    margin: 0.4rem 0;
+
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+.navbar-menu-toggle.active .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-20px, 7px);
+}
+
+.navbar-menu-toggle.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.navbar-menu-toggle.active .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-20px, -7px);
+}
+
+@media (max-width: 944px) {
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+        /* position: relative; */
+    }
+
+    .navbar-links {
+        height: 80vh;
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        background-color: rgb(25, 30, 46);
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 0;
+    }
+
+
+
+    .navbar.active .navbar-links {
+        display: flex;
+    }
+
+    .navbar-menu-toggle {
+        display: flex;
+    }
+}

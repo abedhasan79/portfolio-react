@@ -1,0 +1,128 @@
+.homeMain {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.imageMain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.title .title-h4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.title-h4 h4 {
+    width: 900px;
+    font-weight: 200;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 958px) {
+    .title-h4 h4 {
+        width: auto;
+    }
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+
+    border-radius: 50%;
+    height: fit-content;
+    width: fit-content;
+
+    animation: borderAnimation 4s linear infinite;
+}
+
+@keyframes borderAnimation {
+
+    0%,
+    100% {
+        /* border:2px solid rgb(252, 157, 157); */
+        box-shadow: 0 0 20px rgb(255, 0, 0);
+    }
+
+    25% {
+        /* border:2px solid rgb(193, 250, 176); */
+        box-shadow: 0 0 20px rgb(82, 252, 30);
+    }
+
+    50% {
+        /* border:2px solid rgb(176, 248, 244); */
+        box-shadow: 0 0 20px rgb(39, 250, 239);
+    }
+
+    75% {
+        /* border:2px solid rgb(243, 178, 252); */
+        box-shadow: 0 0 20px rgb(223, 0, 253);
+    }
+}
+
+.image {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    
+}
+
+.my-name {
+    color: aqua;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.logo-git-lin {
+    text-align: center;
+    /* padding-top: 5vh; */
+
+}
+
+.logoColor {
+    color: white;
+}
+
+.logoColor:hover {
+    color: aqua;
+    /* opacity: 0.7; */
+    animation: iconAnimation 1s linear infinite;
+}
+
+@keyframes iconAnimation {
+
+    0% {
+        /* border:2px solid rgb(252, 157, 157); */
+        opacity: 0.1;
+        /* transform: translate3d(0, -50%, 0); */
+    }
+
+    50% {
+        /* border:2px solid rgb(176, 248, 244); */
+        opacity: 1;
+        /* transform: translate3d(0, 50%, 0); */
+    }
+
+    100% {
+        /* border:2px solid rgb(193, 250, 176); */
+        opacity: 0.5;
+        /* transform: translate3d(0, 100%, 0); */
+    }
+
+}
