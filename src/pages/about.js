@@ -5,7 +5,7 @@ import './about.css';
 function About() {
     return (
         <>
-            <div className="aboutMainDiv">
+            <div className="aboutMainDiv" id="about">
                 <div>
                     <div>
                         <div className="aboutMeHeader">
@@ -44,8 +44,10 @@ function About() {
                         </div>
 
                         <div className="aboutSkillsHeading">
-                            <h4>My Skills</h4>
-                            <h2>Technologies <span className="dotdotdot">...</span></h2>
+                            <div>
+                                <h4>My Skills</h4>
+                                <h2>Technologies <span className="dotdotdot">...</span></h2>
+                            </div>
 
                         </div>
                         <div className="tech">

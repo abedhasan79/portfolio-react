@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './navbar.css';
 import { useTransition, animated } from '@react-spring/web';
+import { Link } from 'react-scroll';
 
 function Navbar() {
 
@@ -41,7 +42,7 @@ function Navbar() {
 
 
     return (
-        <nav className={`navbar ${menuOpen ? "active" : ""}`} style={{ position:"sticky",top: visible ? "0" : "-100px" }}>
+        <nav className={`navbar ${menuOpen ? "active" : ""}`} style={{ position: "sticky", top: visible ? "0" : "-100px" }}>
             <div className="navbar-logo"><span className="logo-A">A</span>B<span className="logo-A">E</span>D</div>
             <div className={`navbar-menu-toggle ${menuOpen ? "active" : ""}`} onClick={toggleMenu}>
                 <div className="bar"></div>
@@ -55,23 +56,21 @@ function Navbar() {
                         (styles, item) =>
                             item && (
                                 <animated.ul className={`navbar-links`} style={styles}>
-                                    <li className="navbar-item"><a href="#">Home</a></li>
-                                    <li className="navbar-item"><a href="#">About</a></li>
-                                    <li className="navbar-item"><a href="#">Projects</a></li>
-                                    <li className="navbar-item"><a href="#">Contact</a></li>
+                                    {/* Use Link component for smooth scrolling */}
+                                    <li className="navbar-item"><Link to="home" smooth={true} duration={500}>Home</Link></li>
+                                    <li className="navbar-item"><Link to="about" smooth={true} duration={500}>About</Link></li>
+                                    <li className="navbar-item"><Link to="project" smooth={true} duration={500}>Projects</Link></li>
+                                    <li className="navbar-item"><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
                                 </animated.ul>
                             )
                     )}
                 </>
                 :
                 <ul className={`navbar-links ${menuOpen ? "active" : ""}`}>
-
-                    <li className="navbar-item"><a href="#">Home</a></li>
-                    <li className="navbar-item"><a href="#">About</a></li>
-                    <li className="navbar-item"><a href="#">Projects</a></li>
-                    <li className="navbar-item"><a href="#">Contact</a></li>
-
-
+                    <li className="navbar-item"><Link to="home" smooth={true} duration={500}>Home</Link></li>
+                    <li className="navbar-item"><Link to="about" smooth={true} duration={500}>About</Link></li>
+                    <li className="navbar-item"><Link to="project" smooth={true} duration={500}>Projects</Link></li>
+                    <li className="navbar-item"><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
                 </ul>
             }
 

@@ -1,0 +1,112 @@
+.contactMainDiv {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    /* animation: borderTopBottomRightLeftColor 4s linear infinite; */
+}
+
+@media screen  and (max-width:616px) {
+    .contactMainDiv {
+        
+        margin-right: auto;
+        margin-left: auto;
+        
+        /* animation: borderTopBottomRightLeftColor 4s linear infinite; */
+    }
+}
+
+/* @keyframes borderTopBottomRightLeftColor {
+
+    0%,
+    100% {
+        border-bottom: 3px solid rgb(252, 157, 157);
+        border-top: 3px solid rgb(252, 157, 157);
+        border-right: 3px solid rgb(252, 157, 157);
+        border-left: 3px solid rgb(252, 157, 157);
+    }
+
+    25% {
+        border-bottom: 3px solid rgb(193, 250, 176);
+        border-top: 3px solid rgb(193, 250, 176);
+        border-right: 3px solid rgb(193, 250, 176);
+        border-left: 3px solid rgb(193, 250, 176);
+    }
+
+    50% {
+        border-bottom: 3px solid rgb(176, 248, 244);
+        border-top: 3px solid rgb(176, 248, 244);
+        border-right: 3px solid rgb(176, 248, 244);
+        border-left: 3px solid rgb(176, 248, 244);
+
+    }
+
+    75% {
+        border-bottom: 3px solid rgb(243, 178, 252);
+        border-top: 3px solid rgb(243, 178, 252);
+        border-right: 3px solid rgb(243, 178, 252);
+        border-left: 3px solid rgb(243, 178, 252);
+
+    }
+} */
+.contactMeHeader {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 5rem;
+    animation: borderColor 4s linear infinite;
+    /* background: linear-gradient(rgb(8, 8, 8), rgb(110, 98, 98)); */
+}
+
+.contact-form-container{
+    /* display: flex; */
+    text-align: center;
+}
+
+.contactMeHeader h2 {
+
+    width: auto;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    width: 50%;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 50%;
+    padding: 10px;
+    animation: borderTopBottomColor 4s linear infinite;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 180px;
+}
+
+button {
+    background-color: #00a194;
+    animation: borderTopBottomColor 4s linear infinite;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

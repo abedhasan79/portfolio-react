@@ -1,6 +1,6 @@
 .aboutMainDiv {
     height: auto;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
 }
@@ -112,9 +112,8 @@
 }
 
 .aboutSkillsHeading {
-    padding-left: 10rem;
-    padding-right: 10rem;
-    
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .aboutSkillsHeading h2{

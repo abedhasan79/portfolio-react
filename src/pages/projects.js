@@ -12,7 +12,7 @@ function Projects() {
     };
 
     return (
-        <div className="projectsMainDiv">
+        <div className="projectsMainDiv" id="project">
             <div>
                 <div className="projectHeadding">
                     <h2>Projects</h2>

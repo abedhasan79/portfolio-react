@@ -13,7 +13,7 @@ function Home() {
 
     return (
         <>
-            <div className="homeMain">
+            <div className="homeMain" id="home">
                 <div>
                     <div className="imageMain">
                         <div className="image-container">
