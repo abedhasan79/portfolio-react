@@ -25,7 +25,7 @@ function About() {
                         </div>
 
                         <div className="resume">
-                            <a target="_blank" rel="noopener noreferrer" href="/images/Abed Hasan Resume.pdf">Download Resume</a>
+                            <a target="_blank" rel="noopener noreferrer" href="images/Abed Hasan Resume.pdf">Download Resume</a>
                         </div>
 
                         <div className="aboutSkills">
