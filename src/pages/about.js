@@ -13,7 +13,7 @@ function About() {
                         </div>
                         <div className="container-about">
                             <div className="image-container-about">
-                                <img className="imageAbout" src="/images/coder.png" alt="me abed" />
+                                <img className="imageAbout" src="images/coder.png" alt="me abed" />
                             </div>
 
                             <div className="aboutIntroDiv">
@@ -52,15 +52,15 @@ function About() {
                         </div>
                         <div className="tech">
                             <div className="techChild">
-                                <img src="/images/html.png" alt="html" />
-                                <img src="/images/css.png" alt="css" />
-                                <img src="/images/js.png" alt="css" />
-                                <img src="/images/mysql.png" alt="css" />
-                                <img src="/images/node.png" alt="css" />
-                                <img src="/images/mongo.png" alt="css" />
-                                <img src="/images/react.png" alt="css" />
-                                <img src="/images/express.png" alt="css" />
-                                <img src="/images/graphQL.png" alt="css" />
+                                <img src="images/html.png" alt="html" />
+                                <img src="images/css.png" alt="css" />
+                                <img src="images/js.png" alt="css" />
+                                <img src="images/mysql.png" alt="css" />
+                                <img src="images/node.png" alt="css" />
+                                <img src="images/mongo.png" alt="css" />
+                                <img src="images/react.png" alt="css" />
+                                <img src="images/express.png" alt="css" />
+                                <img src="images/graphQL.png" alt="css" />
                             </div>
 
                         </div>

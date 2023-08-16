@@ -26,7 +26,7 @@ function Projects() {
                 <div className="projectParentDiv">
                     <div className="project projectOne">
                         <h4>PoKeDex</h4>
-                        <img src="/images/pokedex.png" alt="pokedex" />
+                        <img src="images/pokedex.png" alt="pokedex" />
                         <div className="description">
                             <h6>pokedex app using HTML CSS JavaScript. Uses data from the poke Api to fetch data.</h6>
 
@@ -40,7 +40,7 @@ function Projects() {
                     </div>
                     <div className="project projectTwo">
                         <h4>PoKeDex</h4>
-                        <img src="/images/pokedex.png" alt="pokedex" />
+                        <img src="images/pokedex.png" alt="pokedex" />
                         <div className="description">
                             <h6>pokedex app using HTML CSS JavaScript. Uses data from the poke Api to fetch data.</h6>
 
@@ -54,7 +54,7 @@ function Projects() {
                     </div>
                     <div className="project projectThree">
                         <h4>PoKeDex</h4>
-                        <img src="/images/pokedex.png" alt="pokedex" />
+                        <img src="images/pokedex.png" alt="pokedex" />
                         <div className="description">
                             <h6>pokedex app using HTML CSS JavaScript. Uses data from the poke Api to fetch data.</h6>
 

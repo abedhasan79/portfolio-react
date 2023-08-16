@@ -17,7 +17,7 @@ function Home() {
                 <div>
                     <div className="imageMain">
                         <div className="image-container">
-                            <img className="image" src="/images/profile-pic.jpg" alt="me abed" />
+                            <img className="image" src="images/profile-pic.jpg" alt="me abed" />
                         </div>
                     </div>
                     <div className="title">
