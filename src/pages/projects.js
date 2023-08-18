@@ -28,7 +28,7 @@ function Projects() {
                         <h4>PoKeDex</h4>
                         <img src="images/pokedex.png" alt="pokedex" />
                         <div className="description">
-                            <h6>pokedex app using HTML CSS JavaScript. Uses data from the poke Api to fetch data.</h6>
+                            <h6>Pokedex app using React.js, HTML, CSS, JavaScript. Uses data from the poke Api to fetch data.</h6>
 
                         </div>
                         <div className="hoverLayout">
@@ -39,31 +39,31 @@ function Projects() {
                         </div>
                     </div>
                     <div className="project projectTwo">
-                        <h4>PoKeDex</h4>
-                        <img src="images/pokedex.png" alt="pokedex" />
+                        <h4>ApolloDae</h4>
+                        <img src="images/project2.png" alt="apollodae" />
                         <div className="description">
-                            <h6>pokedex app using HTML CSS JavaScript. Uses data from the poke Api to fetch data.</h6>
+                            <h6>Full Stack E-Commerce Website. Using Mern Stack, Cloudinary, Tailwind css, Heroku, Git.</h6>
 
                         </div>
                         <div className="hoverLayout">
                             <h3>Github link...</h3>
-                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/abedhasan79" className="logoColor"><i className="fab fa-github" style={styles.icon}></i></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/abedhasan79/ApolloDAE" className="logoColor"><i className="fab fa-github" style={styles.icon}></i></a>
                             <h3>Deployed link...</h3>
-                            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/abed-hasan-965497222/" className="logoColor"><i className="fa-brands fa-chrome" style={styles.icon}></i></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://apollodae001.herokuapp.com/" className="logoColor"><i className="fa-brands fa-chrome" style={styles.icon}></i></a>
                         </div>
                     </div>
                     <div className="project projectThree">
-                        <h4>PoKeDex</h4>
-                        <img src="images/pokedex.png" alt="pokedex" />
+                        <h4>Teagram</h4>
+                        <img src="images/project3.png" alt="teagram" />
                         <div className="description">
-                            <h6>pokedex app using HTML CSS JavaScript. Uses data from the poke Api to fetch data.</h6>
+                            <h6>Social Network Web App. Using Handlebars, MySQL, Node.Js, Express.Js, Cloudinary, REST, Heroku, Git.</h6>
 
                         </div>
                         <div className="hoverLayout">
                             <h3>Github link...</h3>
-                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/abedhasan79" className="logoColor"><i className="fab fa-github" style={styles.icon}></i></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/EsraWameed/teagram" className="logoColor"><i className="fab fa-github" style={styles.icon}></i></a>
                             <h3>Deployed link...</h3>
-                            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/abed-hasan-965497222/" className="logoColor"><i className="fa-brands fa-chrome" style={styles.icon}></i></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://tea-gram.herokuapp.com/" className="logoColor"><i className="fa-brands fa-chrome" style={styles.icon}></i></a>
                         </div>
                     </div>
 
